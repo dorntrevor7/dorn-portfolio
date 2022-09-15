@@ -21,6 +21,25 @@ body {
     color: rgb(50, 50, 50);
 }
 
+.contactContainer{
+    display: flex;
+    padding: 5em;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.contactContainer h3 {
+    font-size: 30px;
+}
+
+.contactContainer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
 /* Styling for the header with flex-box */
 header {
     display: flex;
@@ -53,6 +72,18 @@ header ul li a{
 header h1{
     padding-left: 1em;
     font-size: 45px;
+}
+
+/* Styling for the footer */ 
+footer {
+    background-color: maroon;
+    color: lightblue;
+    padding: 2em;
+}
+
+footer p {
+    color: lightblue;
+    margin: 0;
 }
 
 .welcoming {
