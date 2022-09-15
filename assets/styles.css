@@ -1,0 +1,141 @@
+/* STyling for About me section */
+.about {
+    display: flex;
+}
+
+.aboutMe {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abtH3 {
+    font-size: 30px;
+}
+
+article {
+    padding: 4em;
+    border: 2px solid black;
+    margin: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* Styling for body */
+body {
+    font-family: Cambria,Georgia;
+    margin: 0;
+    background-color: papayawhip;
+    color: rgb(50, 50, 50);
+}
+
+.contactContainer{
+    display: flex;
+    padding: 5em;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.contactContainer h3 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.contactContainer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+/* Styling for the header with flex-box */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: maroon;
+    color: lightblue;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1em;
+}
+header ul li a{
+    padding: 1em;
+    text-decoration: none;
+    color: papayawhip;
+    font-size: 25px;
+    text-shadow: 1px 0px white;
+}
+header h1{
+    padding-left: 1em;
+    font-size: 45px;
+}
+
+/* Styling for the footer */ 
+footer {
+    background-color: maroon;
+    color: lightblue;
+    padding: 2em;
+}
+
+footer p {
+    color: lightblue;
+    margin: 0;
+}
+
+.welcoming {
+    display: flex;
+    width: 100%;
+    background-image: url("https://www.americanrivers.org/wp-content/uploads/2022/08/Untitled-design-43-1440x675.png");
+    height: 200px;
+    justify-content: center;
+}
+
+.whoIsTrev {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 5em;
+}
+
+.portfolioSection {
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid black;
+}
+
+.portfolioSection h2 {
+    justify-content: center ;
+    padding: 50px
+}
+
+.proImg {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    padding: 5em;
+}
+
+section a img {
+    height: 300px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.projects {
+    justify-content:space-around;
+}
+
