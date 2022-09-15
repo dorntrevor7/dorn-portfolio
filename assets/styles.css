@@ -136,6 +136,10 @@ section a img {
     border-radius: 50%;
 }
 
+section a img:hover {
+    border: 5px solid white;
+}
+
 .projects {
     justify-content:space-around;
 }
