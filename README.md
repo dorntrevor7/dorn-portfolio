@@ -12,4 +12,4 @@ This project is my Professional Portfolio. This website displays my image, about
 
 This is used to market my portfolio and projects. As well as gives me a competitive advantage to others by displaying different ways to check out my projects i have created.
 
-This site was built using Github Pages, check it out: [Trev's Portfolio](https://dorntrevor7.github.io/horiseon/).
+This site was built using Github Pages, check it out: [Trev's Portfolio](https://dorntrevor7.github.io/dorn-portfolio/).
